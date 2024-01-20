@@ -34,7 +34,7 @@ background-color: lightgrey;
 opacity: .8;
 color: white;
 border: 2px solid rgba(248, 195, 6, 0.875);
-transition: all, .1s;
+transition: all, .05s;
 }
 
 .pressed {
