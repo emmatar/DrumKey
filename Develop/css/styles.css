@@ -13,14 +13,23 @@ width: 2rem;
 justify-content: center;
 }
 
+header {
+    margin: 5em;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgba(248, 195, 6, 0.875);;
+}
+
 .keys {
     position: relative;
+    top: 5em;
     margin: 15px;
-    bottom: 3em;
     display: flex;
     flex: 1;
-    min-height: 100vh;
-    align-items: center;
+    min-height: ;
+    align-content: center;
     justify-content: space-evenly;
     color: white;
 }
@@ -57,4 +66,14 @@ justify-content: center;
     }
 }
 
+@media screen and (max-width: 660px) {
+    h1 {
+        font-size: 40px;
+    }
+}
 
+@media screen and (max-width: 550px) {
+    h1 {
+        font-size: 30px;
+    }
+}
