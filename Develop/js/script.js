@@ -1,5 +1,5 @@
 function sounds(e) {
-    const key = document.querySelector(`.key[data-key="${e.keyCode}"`)
+    const key = document.querySelector(`.key[data-key="${e.keyCode}"]`)
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`)
     audio.currentTime = 0;
     audio.play()
@@ -14,6 +14,7 @@ function transitionEnd(e) {
 }
 
 const key = document.querySelectorAll('.key')
+
 key.forEach(transition => {
     transition.addEventListener('transitionend', transitionEnd)
 });
