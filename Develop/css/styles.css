@@ -28,7 +28,7 @@ h1 {
     margin: 15px;
     display: flex;
     flex: 1;
-    min-height: ;
+    height: 7.5em;
     align-content: center;
     justify-content: space-evenly;
     color: white;
